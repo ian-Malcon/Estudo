@@ -1,4 +1,4 @@
-#include  <studio.h>
+#include  <stdio.h>
 
 int main() {
     int nota1, nota2, nota3;
@@ -12,7 +12,7 @@ int main() {
     printf("Digite sua segunda nota: \n");
     scanf("%d", &nota2);
 
-    printf(Digite sua terceira nota: \n");
+    printf("Digite sua terceira nota: \n");
     scanf("%d", &nota3);
 
     media = (nota1 + nota2 + nota3) / 3;
