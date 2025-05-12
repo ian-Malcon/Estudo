@@ -1,1 +1,38 @@
-//Operadores matemáticos 
+#include <studio.h>
+//Operadores matemáticos
+int main(){
+
+/*
+Soma (+)
+Subtração (-)
+Multiplicação (*)
+Divisão (/)
+*/
+
+int numero1, numero2;
+int soma, subtração, multiplicação, divisão;
+
+//entrada de dados
+printf("Entre com o numero 1: \n");
+scanf("%d", &numero1);
+printf("Entre fom o numero 2: \n");
+scanf("%d", &numero2);
+
+//operação de soma
+soma = numero1 + numero2;
+
+//operação de subtração
+subtração = numero1 - numero2;
+
+//operação de multiplicação
+multiplicação = numero1 * numero2;
+
+//operação de divisão
+divisão = numero1 / numero 2;
+
+printf("A Soma é: &d\n", soma);
+printf("A Subtração é: &d\n", subtração);
+printf("A Multiplicação é: &d\n", multiplicação);
+printf("A Divisão é: &d\n", divisão);
+
+}
