@@ -20,4 +20,5 @@ int main() {
     printf("A média é: %d", media);
 
     return 0;
+    
 }
